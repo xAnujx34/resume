@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms tutorial</title>
+    </head>
+    <body>
+        <h1>Enter your details here</h1>
+        <form action="images/begula.jpg">
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" placeholder="Enter first Name">
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" placeholder="Enter last name">
+            <br> <br>
+            <label for="age">Age</label>
+            <input type="number" id="age" placeholder="Enter age">
+            <br> <br>
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob">
+            <br> <br>
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+            <label for="pw">Password</label>
+            <input type="password" id="pw" required>
+            <br> <br>
+            <p>Enter your tshirt Size</p>
+            <input type="radio" id="small" name="tshirtSize">
+            <label for="small">Small</label> <br>
+            <input type="radio" id="medium" name="tshirtSize">
+            <label for="medium">Medium</label> <br>
+            <input type="radio" id="large" name="tshirtSize">
+            <label for="large">Large</label> <br>
+            <label for="favColor">Your favourite color</label>
+            <input type="color" id="favColor">
+            <br> <br>
+            <label for="favCar">Choose a Car</label>
+            <select name="cars" id="favCar">
+                <option value="Audi">Audi</option>
+                <option value="BMW">BMW</option>
+                <option value="Thar">Thar</option>
+                <option value="Mustang">Mustang</option>
+                <option value="Porsche">Porsche</option>
+            </select>
+            <br> <br>
+            <label for="aboutYourself">Tell us about yourself</label>
+            <textarea name="aboutYourself" id="aboutYourself" rows="10" cols="30"></textarea>
+            <br> <br>
+            <input type="reset" value="Reset form">
+            <input type="submit" value="Submit form">
+        </form>
+    </body>
+</html>
